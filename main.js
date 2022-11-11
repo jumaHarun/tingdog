@@ -45,9 +45,6 @@ function handleRejectBtnClick() {
 
 function renderDog() {
   document.getElementById('profile').innerHTML = dog.getDogHtml()
-
-
-  console.log(`Liked: ${dog.hasBeenLiked} \nSwipped: ${dog.hasBeenSwiped}`)
 }
 
 function getNewDog() {
